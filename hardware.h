@@ -671,7 +671,7 @@ void setupRfmInterrupt()
 #define TX_AIN0 A4 // SDA
 #define TX_AIN1 A5 // SCL
 
-#define BUZZER_PAS  3  // OCR2B
+//#define BUZZER_PAS  3  // OCR2B
 #define BUZZER_ACT A5
 #define BTN     A4
 
@@ -1117,10 +1117,10 @@ void setupRfmInterrupt()
 #define USE_ICP1 // use ICP1 for PPM input for less jitter
 #define PPM_IN 8 // ICP1
 
-#define TX_AIN0 A4 // SDA
-#define TX_AIN1 A5 // SCL
+//#define TX_AIN0 A4 // SDA
+//#define TX_AIN1 A5 // SCL
 
-#define BUZZER_PAS  3  // OCR2B
+#define BUZZER_PAS  A5  // OCR2B
 #define BUZZER_ACT A5
 #define BTN     A4
 
@@ -1128,34 +1128,14 @@ void buzzerInit()
 {
   pinMode(BUZZER_ACT, OUTPUT);
   digitalWrite(BUZZER_ACT, LOW);
-  TCCR2A = (1<<WGM21); // mode=CTC
-#if (F_CPU == 16000000)
-  TCCR2B = (1<<CS22) | (1<<CS20); // prescaler = 128
-#elif (F_CPU == 8000000)
-  TCCR2B = (1<<CS22); // prescaler = 64
-#else
-#errror F_CPU Invalid
-#endif
-  pinMode(BUZZER_PAS, OUTPUT);
-  digitalWrite(BUZZER_PAS, LOW);
 }
 
 void buzzerOn(uint16_t freq)
 {
   if (freq) {
-    uint32_t ocr = 125000L / freq;
-    digitalWrite(BUZZER_ACT,HIGH);
-    if (ocr>255) {
-      ocr=255;
-    }
-    if (!ocr) {
-      ocr=1;
-    }
-    OCR2A = ocr;
-    TCCR2A |= (1<<COM2B0); // enable output
+    tone(BUZZER_ACT, freq);
   } else {
-    digitalWrite(BUZZER_ACT,LOW);
-    TCCR2A &= ~(1<<COM2B0); // disable output
+    noTone(BUZZER_ACT);
   }
 }
 

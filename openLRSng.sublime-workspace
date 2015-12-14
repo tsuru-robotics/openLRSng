@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nsr/Documents/PX4Firmware/openLRSng"
+	],
+	"file_history":
+	[
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/hmc5883/hmc5883.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/uavcan/sensors/mag.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/sensors/sensors.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/uORB/topics/sensor_combined.h",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/boards/px4fmu-v1/board_config.h",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/boards/px4fmu-v1/px4fmu_spi.c",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/boards/px4fmu-v1/px4fmu_init.c",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/px4fmu/fmu.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/attitude_estimator_q/attitude_estimator_q_main.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/mavlink/mavlink_messages.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/sdlog2/sdlog2.c",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/lsm303d/lsm303d.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/drv_mag.h",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/commander/PreflightCheck.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/ekf_att_pos_estimator/ekf_att_pos_estimator_main.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/commander/mag_calibration.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/modules/sensors/sensor_params.c",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/rc.sensors",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/stm32/adc/adc.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/gps/ubx.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src/drivers/gps/ubx.h",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/rcS",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/rc.mc_apps",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/rc.mc_defaults",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/rc.autostart",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/4010_dji_f330",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/makefiles/config_px4fmu-v1_default.mk",
+		"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d/4001_quad_x",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101-working/ROMFS/px4fmu_common/init.d/rcS",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/src/drivers/boards/px4fmu-v1/px4fmu_init.c",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/src/modules/sensors/sensors.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/src/modules/commander/commander.cpp",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/ROMFS/px4fmu_common/init.d/rcS",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/mavlink/include/mavlink/v1.0/tsuru/mavlink_msg_hud_slow.h",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/src/drivers/boards/px4fmu-v2/px4fmu2_init.c",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/Firmware101.sublime-project",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/Build/px4fmu-v2_default.build/romfs_scratch/init.d/rc.sensors",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/CMakeLists.txt",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/makefiles/firmware.mk",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/makefiles/module.mk",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/.cproject",
+		"/Users/nsr/Documents/PX4Firmware/Firmware101/src/drivers/lsm303d/module.mk",
+		"/Users/nsr/Dropbox/APM3/ardupilot/config.mk",
+		"/Users/nsr/Dropbox/APM3/ardupilot/ArduCopter/ArduCopter.pde",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_AHRS/AP_AHRS_DCM.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/mk/sketch_sources.mk",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_Motors/AP_MotorsTri.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_Motors/AP_MotorsTri.h",
+		"/Users/nsr/Documents/Arduino/libraries/SimpleSerialProtocol/SimpleSerialProtocol.h",
+		"/Users/nsr/Documents/Arduino/ArduinoMAVLink/ArduinoMAVLink.pde",
+		"/Users/nsr/Downloads/px4logs/dataman",
+		"/media/psf/Dropbox/APM3/ardupilot/ArduPlane/ArduPlane.pde",
+		"/media/psf/Dropbox/APM3/ardupilot/ArduCopter/Attitude.pde",
+		"/media/psf/Dropbox/APM3/ardupilot/libraries/AP_InertialNav/AP_InertialNav.cpp",
+		"/media/psf/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_PX4.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_PX4.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_VRBRAIN.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_VRBRAIN.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/LSM9DS0/AP_InertialSensor_LSM9DS0.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/LSM9DS0/AP_InertialSensor_LSM9DS0.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_Mission/AP_Mission.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_PX4.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_Oilpan.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_Oilpan.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_MPU9250.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_MPU9250.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_MPU9150.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_MPU9150.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_MPU6000.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_MPU6000.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_LSM303D.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_LSM303D.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_L3GD20.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_L3GD20.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_L3G4200D.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_L3G4200D.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_HIL.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_HIL.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_Flymaple.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_Flymaple.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialNav/AP_InertialNav_NavEKF.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialNav/AP_InertialNav_NavEKF.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialNav/AP_InertialNav.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_GPS/AP_GPS.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_GPS/AP_GPS.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_EPM/AP_EPM.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_EPM/AP_EPM.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_Airspeed/AP_Airspeed.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_Airspeed/Airspeed_Calibration.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_AHRS/AP_AHRS_NavEKF.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_AHRS/AP_AHRS_NavEKF.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_AHRS/AP_AHRS_DCM.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_AHRS/AP_AHRS.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AC_WPNav/AC_Circle.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AC_WPNav/AC_Circle.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AC_Sprayer/AC_Sprayer.h",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AC_Sprayer/AC_Sprayer.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_InertialNav/AP_InertialNav.cpp",
+		"/Users/nsr/Dropbox/APM3/ardupilot/ArduCopter/control_stabilize.pde",
+		"/Users/nsr/Dropbox/APM3/ardupilot/libraries/AP_AHRS/AP_AHRS.cpp",
+		"/Users/nsr/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/nsr/Dropbox/APM3/ardupilot/mk/board_avr.mk",
+		"/Users/nsr/Dropbox/SkolTech/Fall 2014/Python course/Functions and branching/Answers/[5 Questions.ipynb][Prilepskiy].py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/src",
+			"/Users/nsr/Documents/PX4Firmware/Firmware-101-working/ROMFS/px4fmu_common/init.d",
+			"/Users/nsr/Documents/PX4Firmware/Firmware101",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_tc",
+			"lsm303",
+			"MAGIOCGEXTERNAL",
+			"is external",
+			"is internal",
+			"MAG is internal",
+			"magnetometer1_ga",
+			"magnetometer_ga",
+			"разработка компоновки системы для решения задач (входит как составляющая в другие задачи);",
+			"magnetometer_ga",
+			"mag*(optional)",
+			"(optional)",
+			".magnetometer_ga",
+			".magnetometer_temp",
+			"magnetometer_temp",
+			"magnetometer1_ga",
+			"MAGIOCGEXTERNAL",
+			"MAGIOCSTEMPCOMP",
+			"MAGIOCGEXTERNAL",
+			"magnometerCheck(",
+			"uncalibrated",
+			"_mag_sub",
+			"magnetometer1_ga",
+			".magnetometer_ga",
+			".magnetometer_ga1",
+			"MAGIOCGEXTERNAL",
+			"EXT",
+			"sensor_combined",
+			".magnetometer_ga",
+			"HIGHRES_IMU",
+			"sensor_combined",
+			"mag_poll",
+			"raw.magnetometer_raw",
+			"SENS_EXT_MAG",
+			"GPIO_SPI_CS_ACCEL_MG",
+			"_ACCEL",
+			"lsm303d_mag",
+			"lsm303d_mag_ext",
+			"lsm303d_mag",
+			"GPIO_SPI_CS_ACCEL_MAG",
+			"stm32_spi1select(",
+			"LSM303D_DEVICE_PATH_MAG",
+			"LSM303D_DEVICE_PATH_ACCEL",
+			"_ACCEL",
+			"PX4_SPIDEV_ACCEL_MAG",
+			"GPIO_SPI_CS_ACCEL_MAG",
+			"GPIO_SPI_CS_ACCEL",
+			"PX4_SPI_BUS_SENSORS",
+			"exter",
+			"::start",
+			"start",
+			"-R",
+			"R",
+			"-X",
+			"lsm3",
+			"configure",
+			"UBX_TX_CFG_NAV5_DYNMODEL",
+			"u-blox",
+			"ublox",
+			"$$$",
+			">>",
+			"ms5611",
+			"ADC_BATTERY_CURRENT_CHANNEL",
+			"CONFIG_ARCH_BOARD_PX4FMU_V1",
+			"ADC_BATTERY_VOLTAGE_CHANNEL",
+			"_battery_status.",
+			"ADC_BATTERY_VOLTAGE_CHANNEL",
+			"ADC_BATTERY_CURRENT_CHANNEL",
+			"voltag",
+			"adc",
+			"no aut",
+			"Exec",
+			"LOG_FILE",
+			"USE_IO",
+			"$USE_IO",
+			"log",
+			"mc_defa",
+			"ekf_att_pos_estimator",
+			"v1",
+			"px4_read(",
+			"voltage_filtered_v",
+			"battery.voltage_filtered_v",
+			"status.battery_voltage",
+			"status.battery_voltage ",
+			"mavlink_msg_hud_slow_",
+			"mavlink_msg_hud_slow_encode",
+			"mavlink_msg_hud_slow_pack",
+			"voltage_battery",
+			"HUD_SLOW",
+			"BATT_VOLTAGE_SENS",
+			"GPIO_ADC1_IN3",
+			"GPIO_ADC1_IN10",
+			"_IN10",
+			"battery",
+			"battery monitor",
+			"voltage",
+			"ADC123_IN10",
+			"FORCE",
+			"FORCE_MICROSD_PARAM",
+			"rcS",
+			"Force",
+			"lsm3",
+			"PX4FMU_V2",
+			"v2_default",
+			"lsm303d",
+			"lsm303d.cpp",
+			"tilt",
+			"compass",
+			"drift_co",
+			"drift",
+			"normalize(",
+			"_omega_P",
+			" _gyro",
+			"get_gyro",
+			"_gyro_estimate",
+			"::get_gyro(",
+			"get_gyro(",
+			"matrix_upda",
+			"_ins",
+			" _ins",
+			"_ins",
+			"ahrs_upda",
+			"ahrs_up",
+			"6400",
+			"ahrs",
+			"read_AHRS()",
+			"ahrs",
+			"update_cd_values"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "openLRSng.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
