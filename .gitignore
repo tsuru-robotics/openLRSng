@@ -13,3 +13,5 @@ libraries/*
 out
 
 *.sublime-workspace
+
+openLRSng.sublime-workspace
