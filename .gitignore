@@ -11,3 +11,5 @@
 *.hex
 libraries/*
 out
+
+*.sublime-workspace
